@@ -15,9 +15,9 @@ Terraform project to test mutli-az ECS diaster recovery exercise
 
 
 # After verifying, restores
-./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-1
-./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-2
-./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-3
-./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-4
+    ./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-1
+    ./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-2
+    ./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-3
+    ./ecs-dr.sh --mode restore --cluster dr-test-cluster --service dr-test-service-4
 
 
